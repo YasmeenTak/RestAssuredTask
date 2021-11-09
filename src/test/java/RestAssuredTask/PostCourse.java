@@ -15,7 +15,7 @@ import org.json.JSONObject;
 
 public class PostCourse {
 	// Test Case
-	@Test
+	@Test (priority = 1 )
 	static void postTestCase() {
 		JSONObject requestParams = new JSONObject();
 		requestParams.put("name", "SDLC");

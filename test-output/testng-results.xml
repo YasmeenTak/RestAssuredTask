@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-09T14:56:13 EET" name="Default suite" finished-at="2021-11-09T14:56:20 EET" duration-ms="6659">
+  <suite started-at="2021-11-09T20:24:18 EET" name="Default suite" finished-at="2021-11-09T20:24:23 EET" duration-ms="4753">
     <groups>
     </groups>
-    <test started-at="2021-11-09T14:56:13 EET" name="Default test" finished-at="2021-11-09T14:56:20 EET" duration-ms="6659">
-      <class name="RestAssuredTask.PostCourse">
-        <test-method signature="postTestCase()[pri:0, instance:RestAssuredTask.PostCourse@7a419da4]" started-at="2021-11-09T14:56:13 EET" name="postTestCase" finished-at="2021-11-09T14:56:20 EET" duration-ms="6530" status="PASS">
+    <test started-at="2021-11-09T20:24:18 EET" name="Default test" finished-at="2021-11-09T20:24:23 EET" duration-ms="4753">
+      <class name="RestAssuredTask.GetOneOrAllCourses">
+        <test-method signature="getAllCoursesTestCase()[pri:1, instance:RestAssuredTask.GetOneOrAllCourses@7a419da4]" started-at="2021-11-09T20:24:18 EET" name="getAllCoursesTestCase" finished-at="2021-11-09T20:24:23 EET" duration-ms="4572" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- postTestCase -->
-      </class> <!-- RestAssuredTask.PostCourse -->
+        </test-method> <!-- getAllCoursesTestCase -->
+        <test-method signature="getOneCourse()[pri:2, instance:RestAssuredTask.GetOneOrAllCourses@7a419da4]" started-at="2021-11-09T20:24:23 EET" name="getOneCourse" finished-at="2021-11-09T20:24:23 EET" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getOneCourse -->
+      </class> <!-- RestAssuredTask.GetOneOrAllCourses -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
