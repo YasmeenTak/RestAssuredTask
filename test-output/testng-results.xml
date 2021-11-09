@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-11-09T20:55:07 EET" name="Default suite" finished-at="2021-11-09T20:55:13 EET" duration-ms="6468">
+  <suite started-at="2021-11-09T21:02:36 EET" name="Default suite" finished-at="2021-11-09T21:02:42 EET" duration-ms="5466">
     <groups>
     </groups>
-    <test started-at="2021-11-09T20:55:07 EET" name="Default test" finished-at="2021-11-09T20:55:13 EET" duration-ms="6468">
-      <class name="RestAssuredTask.EditCourse">
-        <test-method signature="EditCourseTestCase()[pri:0, instance:RestAssuredTask.EditCourse@73700b80]" started-at="2021-11-09T20:55:07 EET" name="EditCourseTestCase" finished-at="2021-11-09T20:55:13 EET" duration-ms="6381" status="PASS">
+    <test started-at="2021-11-09T21:02:36 EET" name="Default test" finished-at="2021-11-09T21:02:42 EET" duration-ms="5466">
+      <class name="RestAssuredTask.DeleteCourse">
+        <test-method signature="DeleteCourseTestCase()[pri:0, instance:RestAssuredTask.DeleteCourse@7a419da4]" started-at="2021-11-09T21:02:36 EET" name="DeleteCourseTestCase" finished-at="2021-11-09T21:02:42 EET" duration-ms="5324" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- EditCourseTestCase -->
-      </class> <!-- RestAssuredTask.EditCourse -->
+        </test-method> <!-- DeleteCourseTestCase -->
+      </class> <!-- RestAssuredTask.DeleteCourse -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
