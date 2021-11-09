@@ -14,9 +14,8 @@ import static io.restassured.RestAssured.baseURI;
 
 import org.json.JSONObject;
 
-
 public class GetOneOrAllCourses {
-	@Test (priority = 1)
+	@Test(priority = 1)
 	static void getAllCoursesTestCase() {
 		JSONObject reqParams = new JSONObject();
 		baseURI = "http://localhost:3000";
@@ -32,7 +31,7 @@ public class GetOneOrAllCourses {
 		System.out.println(body);
 	}
 
-	@Test (priority = 2)
+	@Test(priority = 2)
 	static void getOneCourse() {
 		baseURI = "http://localhost:3000";
 		RequestSpecification request = given();
@@ -41,7 +40,7 @@ public class GetOneOrAllCourses {
 		Response res = request.get("/courses/1");
 		int statusCode = res.getStatusCode();
 		Assert.assertEquals(statusCode, 200);
-		
+
 		String body = res.asString();
 		System.out.println(body);
 	}
