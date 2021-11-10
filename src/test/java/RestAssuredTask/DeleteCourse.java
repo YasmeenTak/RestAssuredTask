@@ -17,7 +17,7 @@ public class DeleteCourse {
 		RequestSpecification req = given();
 		req.header("content-type", "application/json");
 
-		Response res = req.delete("/courses/6");
+		Response res = req.delete("/courses/7");
 
 		int statusCode = res.getStatusCode();
 		Assert.assertEquals(statusCode, 200);
