@@ -10,6 +10,7 @@ import io.restassured.specification.RequestSpecification;
 
 import org.json.JSONObject;
 public class EditCourse {
+	// Test Case to Edit Course data using PUT API.
 	@Test
 	static void EditCourseTestCase() {
 		JSONObject reqParams = new JSONObject();

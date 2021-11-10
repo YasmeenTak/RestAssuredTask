@@ -9,6 +9,7 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
 public class DeleteCourse {
+	// Test Case to Delete Course using DELETE API.
 	@Test
 	static void DeleteCourseTestCase() {
 		baseURI = "http://localhost:3000";

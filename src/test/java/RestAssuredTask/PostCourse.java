@@ -8,21 +8,19 @@ import static io.restassured.RestAssured.*;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-import io.restassured.response.Response;
-import static org.hamcrest.Matchers.equalTo;
 
 import org.json.JSONObject;
 
 public class PostCourse {
-	// Test Case
-	@Test (priority = 1 )
+	
+	// Test Case to add new course using POST API.
+	@Test (enabled= true)
 	static void postTestCase() {
 		JSONObject requestParams = new JSONObject();
 		requestParams.put("name", "SDLC");
 		requestParams.put("description", "Software Development Life");
 		requestParams.put("auther", "Yasmeeeen");
 
-		
 		
 		baseURI = "http://localhost:3000";
 		

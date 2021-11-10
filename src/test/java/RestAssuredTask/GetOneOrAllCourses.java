@@ -5,19 +5,16 @@ import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.*;
 
-import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-import static org.hamcrest.Matchers.equalTo;
 
 import static io.restassured.RestAssured.baseURI;
 
-import org.json.JSONObject;
 
 public class GetOneOrAllCourses {
+	// Test Case to Fetch all courses using GET API.
 	@Test(priority = 1)
 	static void getAllCoursesTestCase() {
-		JSONObject reqParams = new JSONObject();
 		baseURI = "http://localhost:3000";
 
 		RequestSpecification req = given();
@@ -30,7 +27,8 @@ public class GetOneOrAllCourses {
 		String body = res.asString();
 		System.out.println(body);
 	}
-
+	
+	// Test Case to Fetch One Course using GET API.
 	@Test(priority = 2)
 	static void getOneCourse() {
 		baseURI = "http://localhost:3000";
